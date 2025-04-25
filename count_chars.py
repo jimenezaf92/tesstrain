@@ -37,7 +37,7 @@ def main(argv):
         txt_file = arg
 
     inFile = open(txt_file)
-    rawText = inFile.read()
+    rawText = inFile.read("")
     inFile.close()
 
     chars = {}
